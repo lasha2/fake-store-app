@@ -1,0 +1,10 @@
+.profile {
+  max-width: 600px;
+  margin: auto;
+}
+.profile h1 {
+  margin-bottom: 0.5rem;
+}
+.profile p {
+  margin: 0.25rem 0;
+}

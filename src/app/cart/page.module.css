@@ -1,0 +1,25 @@
+.cart {
+  max-width: 800px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+.row img {
+  width: 80px;
+  object-fit: contain;
+}
+.info {
+  flex: 1;
+}
+.qty button {
+  width: 30px;
+}
+.price {
+  width: 80px;
+  text-align: right;
+}
