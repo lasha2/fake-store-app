@@ -10,8 +10,7 @@ export default async function ProductDetails({ params }) {
       <img src={product.image} alt={product.title} />
       <div>
         <h1>{product.title}</h1>
-        <p>{product.description}</p>
-        <h2>${product.price}</h2>
+        
       </div>
     </div>
   );
