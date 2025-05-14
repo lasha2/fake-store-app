@@ -15,7 +15,13 @@ export default function ProductsPage() {
 
   return (
     <div className={styles.grid}>
-     
+      {products.map((p) => (
+        <a key={p.id} href={`/product/details/${p.id}`} className={styles.card}>
+          <img src={p.image} alt={p.title} />
+          <h3>{p.title}</h3>
+          <p>${p.price}</p>
+        </a>
+      ))}
     </div>
   );
 }
