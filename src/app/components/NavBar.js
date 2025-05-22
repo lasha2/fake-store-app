@@ -15,6 +15,9 @@ export function NavBar() {
         <li>
           <Link href="/cart">Cart</Link>
         </li>
+         <li>
+          <Link href="/RegisterForm">Register</Link>
+        </li>
       </ul>
     </nav>
   );

@@ -1,0 +1,52 @@
+.container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #092d30;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.input {
+  margin-bottom: 1rem;
+  background-color: #fff;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.field input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: rgb(205, 216, 200);
+  color:#3f5166;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+.button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #3f5166;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #aaa;
+  cursor: not-allowed;
+}
